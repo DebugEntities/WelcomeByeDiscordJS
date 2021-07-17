@@ -4,7 +4,6 @@ const client = new Client({
 });
 const { CanvasSenpai } = require("canvas-senpai");
 const canva = new CanvasSenpai();
-require("dotenv").config();
 const config = require("./config.json");
 client.once("ready", () => {
 	console.log("Ready!");
